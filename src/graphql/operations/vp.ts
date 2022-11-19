@@ -1,4 +1,4 @@
-import snapshot from '@snapshot-labs/snapshot.js';
+import snapshot from '@mwq07081997/snapshot.js';
 import db from '../../helpers/mysql';
 
 export default async function (_parent, { voter, space, proposal }) {
