@@ -7,7 +7,7 @@
   "packageRules": [
     {
       "packagePatterns": ["*"],
-      "excludePackagePatterns": ["@snapshot-labs/snapshot.js"],
+      "excludePackagePatterns": ["@mwq07081997/snapshot.js"],
       "enabled": false
     }
   ]
