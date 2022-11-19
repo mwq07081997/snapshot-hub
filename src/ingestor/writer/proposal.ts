@@ -1,5 +1,5 @@
 import isEqual from 'lodash/isEqual';
-import snapshot from '@snapshot-labs/snapshot.js';
+import snapshot from '@mwq07081997/snapshot.js';
 import { getAddress } from '@ethersproject/address';
 import kebabCase from 'lodash/kebabCase';
 import { jsonParse } from '../../helpers/utils';
@@ -7,7 +7,7 @@ import db from '../../helpers/mysql';
 import { getSpace } from '../../helpers/actions';
 import log from '../../helpers/log';
 
-const proposalDayLimit = 32;
+const proposalDayLimit = 40;
 const proposalMonthLimit = 320;
 
 async function getRecentProposalsCount(space) {
