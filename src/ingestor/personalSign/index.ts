@@ -1,5 +1,5 @@
 import { hashMessage } from '@ethersproject/hash';
-import { pin } from '@snapshot-labs/pineapple';
+import { pin } from '@mwq07081997/pineapple';
 import { verifySignature } from './utils';
 import { jsonParse } from '../../helpers/utils';
 import writer from '../writer';
