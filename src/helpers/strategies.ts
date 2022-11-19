@@ -1,4 +1,4 @@
-import snapshot from '@snapshot-labs/snapshot.js';
+import snapshot from '@mwq07081997/snapshot.js';
 import { spaces } from './spaces';
 import log from './log';
 
