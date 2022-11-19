@@ -1,5 +1,5 @@
 import isEqual from 'lodash/isEqual';
-import snapshot from '@snapshot-labs/snapshot.js';
+import snapshot from '@mwq07081997/snapshot.js';
 import { addOrUpdateSpace, getSpace } from '../../helpers/actions';
 import { jsonParse } from '../../helpers/utils';
 import log from '../../helpers/log';
