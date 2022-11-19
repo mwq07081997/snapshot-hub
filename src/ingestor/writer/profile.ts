@@ -1,5 +1,5 @@
 import { getAddress } from '@ethersproject/address';
-import snapshot from '@snapshot-labs/snapshot.js';
+import snapshot from '@mwq07081997/snapshot.js';
 import db from '../../helpers/mysql';
 import { jsonParse } from '../../helpers/utils';
 import log from '../../helpers/log';
