@@ -1,7 +1,7 @@
 {
   "name": "snapshot-hub",
   "version": "0.1.3",
-  "repository": "snapshot-labs/snapshot-hub",
+  "repository": "mwq07081997/snapshot-hub",
   "license": "MIT",
   "scripts": {
     "lint": "eslint . --ext .ts --fix",
@@ -16,8 +16,8 @@
     "@ethersproject/providers": "^5.6.8",
     "@ethersproject/wallet": "^5.6.2",
     "@shutter-network/shutter-crypto": "^0.1.0-beta.3",
-    "@snapshot-labs/pineapple": "^0.1.0-beta.1",
-    "@snapshot-labs/snapshot.js": "^0.4.52",
+    "@mwq07081997/pineapple": "^0.1.0-beta.1",
+    "@mwq07081997/snapshot.js": "^0.4.52",
     "bluebird": "^3.7.2",
     "connection-string": "^1.0.1",
     "cors": "^2.8.5",
@@ -38,7 +38,7 @@
     "winston": "^3.8.2"
   },
   "devDependencies": {
-    "@snapshot-labs/eslint-config": "0.1.0-beta.6",
+    "@mwq07081997/eslint-config": "0.1.0-beta.6",
     "@types/node": "^14.0.13",
     "nodemon": "^2.0.19"
   },
