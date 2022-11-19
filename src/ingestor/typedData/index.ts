@@ -1,6 +1,6 @@
-import snapshot from '@snapshot-labs/snapshot.js';
-import hashTypes from '@snapshot-labs/snapshot.js/src/sign/types.json';
-import { pin } from '@snapshot-labs/pineapple';
+import snapshot from '@mwq07081997/snapshot.js';
+import hashTypes from '@mwq07081997/snapshot.js/src/sign/types.json';
+import { pin } from '@mwq07081997/pineapple';
 import kebabCase from 'lodash/kebabCase';
 import relayer, { issueReceipt } from '../../helpers/relayer';
 import envelope from './envelope.json';
