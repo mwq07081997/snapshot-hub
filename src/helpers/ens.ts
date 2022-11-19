@@ -1,4 +1,4 @@
-import snapshot from '@snapshot-labs/snapshot.js';
+import snapshot from '@mwq07081997/snapshot.js';
 import log from './log';
 
 const DEFAULT_NETWORK = process.env.DEFAULT_NETWORK || '1';
