@@ -1,5 +1,5 @@
 import express from 'express';
-import snapshot from '@snapshot-labs/snapshot.js';
+import snapshot from '@mwq07081997/snapshot.js';
 import { spaces, spacesMetadata } from './helpers/spaces';
 import relayer from './helpers/relayer';
 import { addOrUpdateSpace } from './helpers/actions';
