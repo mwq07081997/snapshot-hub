@@ -1,5 +1,5 @@
 import fetch from 'cross-fetch';
-import snapshot from '@snapshot-labs/snapshot.js';
+import snapshot from '@mwq07081997/snapshot.js';
 import db from './helpers/mysql';
 import { hasStrategyOverride, sha256 } from './helpers/utils';
 import log from './helpers/log';
@@ -36,7 +36,7 @@ async function getVotes(proposalId: string): Promise<any[] | undefined> {
 }
 
 /**
- * Copied from https://github.com/snapshot-labs/snapshot.js/blob/master/src/utils.ts#L147-L173
+ * Copied from https://github.com/mwq07081997/snapshot.js/blob/master/src/utils.ts#L147-L173
  * to return the whole result (obj.result) instead of just the scores property (obj.result.scores).
  * This should be implemented in snapshot.js, leading to either a breaking change or a new
  * function, e.g. named getFullScores while getScores still returns just the scores prop.
